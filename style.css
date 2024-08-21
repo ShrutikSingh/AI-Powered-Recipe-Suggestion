@@ -68,40 +68,46 @@ body{
 }
 
 /* input output section */
-.main-box{
+
+
+.input-ouput-container{
     height: 600px;
     margin-left: 100px;
     margin-right: 100px;
-
-}
-
-.input-output{
-    height: 600px;
     border: 2px solid black;
     border-radius: 3rem;
     background-size: cover;
+    
 }
-
-
-.input-box{
-    padding-left: 20px;
-    margin-top: 60px;
-}
-.input{
-    width: 250px;
-    height: 30px;
-}
-
-.output-box{
+.input-output form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
     margin-top: 40px;
-    padding: 20px;
+    margin-left: 30px;
+
+}
+#input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+#submitBtn{
+    padding: 5px;
+    font-size: 1em;
+    margin-bottom: 25px;
+}
+#output{
+    margin-top: 20px;
 }
 
 /* ingredient pictures section */
 
 .ingredient{
     height: 200px;
-    border: 2px solid black;
+
     margin: 30px;   
 
 }
@@ -113,9 +119,16 @@ body{
 }
 
 .boxi{
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     height: 200 px;
-    width: 150px;
+    width: 220px;
     margin: 10px;
+    border-radius: 1rem;
+}
+
+.boxi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 1rem;
 }
